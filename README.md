@@ -46,9 +46,9 @@ Fecha: "2024-06-13"
 ## **Enlace:** [Ficha de ***Anolis binotatus*** en Bioweb Reptiles](https://bioweb.bio/faunaweb/reptiliaweb/FichaEspecie/Anolis%20binotatus)
 
 
-## **Foto:** ![Foto de Anolis binotatus](https://multimedia20stg.blob.core.windows.net/especies/anolis%20binotatus%20cabeza.jpg)  
+## **Foto:** ![Anolis binotatus](https://multimedia20stg.blob.core.windows.net/especies/anolis%20binotatus%20cabeza.jpg)  
 
 
 ### **Video:**
-\   <iframe src="https://www.youtube.com/embed/xergwp-WwuA" data-external= "1" width="460" height="215"> </iframe> 
+<iframe src="https://www.youtube.com/embed/xergwp-WwuA" data-external= "1" width="460" height="215"> </iframe> 
 
