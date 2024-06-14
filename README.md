@@ -1,6 +1,5 @@
----
-title: "Proyecto Anolis binotatus"
-output: html_document
+# Proyecto ***Anolis binotatus***
+
 date: "2024-06-13"
 ---
 ### Realizar un análisis de concordancia entre genes mitocondriales (COI y ND2) y nucleares (RAG1) para secuencias de Anolis binotatus de Ecuador.
