@@ -1,0 +1,259 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=157;
+	taxlabels
+	Pmar_QCAZ10223
+	Psca_PT4810
+	Ugal_FBC36
+	aequ_QCAZ6855
+	aequ_QCAZ6883
+	alte
+	alva
+	ampl
+	anne
+	anto
+	aple
+	aqua
+	aura
+	bark
+	beck
+	bica
+	binoQCAZ3438ChimborazoPoe
+	bino_DHMECN10868_Oro
+	bino_DHMECN11354_Oro
+	bino_KU218372_Manabi
+	bino_QCAZ11242_Sto_Domingo
+	bino_QCAZ11436_Manabi
+	bino_QCAZ14152_Guayas
+	bino_QCAZ14365_Azuay
+	bino_QCAZ17024_Chimborazo
+	bino_QCAZ17025_Rios
+	bino_QCAZ17026_Rios
+	bino_QCAZ4139_Ca__ar
+	bino_QCAZ5004_Azuay
+	bino_QCAZ6784_Bolivar
+	bino_QCAZ6900_Rios
+	bino_QCAZ8399_Esmeraldas
+	bipo
+	bisc
+	bomb
+	bomb_QCAZ4851_Pasta_QCAZ
+	boul
+	bras
+	camp
+	capi
+	carp
+	char
+	chrl
+	coba
+	comp
+	cpri
+	crass
+	crsf
+	cryp
+	cusu
+	cymb
+	datz
+	doll
+	duel
+	dunn
+	forb
+	fort
+	fras_QCAZ14393
+	fras_QCAZ3441
+	fras_QCAZ6862
+	fras_QCAZ6867
+	fras_QCAZ8025
+	fusc
+	fusc_QCAZ5025_Moro_QCAZ
+	gado
+	gaig
+	grac
+	graci_QCAZ8071_Esme_QCAZ
+	gran
+	gran_QCAZ4537_Esme_QCAZ
+	gruu
+	hoba
+	humi
+	john
+	kemp
+	lavv
+	lemu
+	limi
+	lint
+	liog
+	lion
+	love
+	lync
+	lync_QCAZ5038_Esme_QCAZ
+	lyra
+	macl
+	macn
+	macu_QCAZ14895_Carchi_QCAZ
+	macu_QCAZ4733_Pich_QCAZ
+	macv
+	magn
+	mari
+	mars
+	matu
+	mede
+	megp
+	meri
+	micl
+	mill
+	monv
+	nauf
+	nebd
+	nebs
+	noto
+	ocel
+	omil
+	onca
+	orto
+	orto_QCAZ10525_Moro_QCAZ
+	oxyl
+	pach
+	pari_QCAZ10178
+	pari_QCAZ15058
+	pari_QCAZ15386
+	parv_QCAZ4532_Esme_QCAZ
+	parv_QCAZ5047_Esme_QCAZ
+	pavc
+	pavt
+	pent
+	pete
+	peuc
+	pkem
+	plan
+	poly
+	purp
+	pygm
+	quag
+	quer
+	roat
+	rodr
+	rubi
+	sagr
+	salv
+	schi
+	scyp
+	scyp_QCAZ5104_Pasta_QCAZ
+	seri
+	serra
+	smin
+	subo
+	sulc
+	tand
+	tayl
+	toli
+	town
+	trac
+	trac_QCAZ4983_Pasta_QCAZ
+	trdn
+	trlp
+	unif
+	unil
+	util
+	vitt
+	wellb
+	wood
+	yoro
+	zeus
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (aequ_QCAZ6855:0.04374,aequ_QCAZ6883:0.054342,((((((((((((((alte:0.041471,monv:0.06148)[&BS=100]:0.059104,((((anto:0.006987,mari:0.022204)[&BS=100]:0.079134,(macu_QCAZ14895_Carchi_QCAZ:0.089036,macu_QCAZ4733_Pich_QCAZ:0.039665)[&BS=77]:0.014783)[&BS=77]:0.014761,(macv:0.029009,mede:0.027936)[&BS=100]:0.02642)[&BS=98]:0.031423,((fort:0.10861,kemp:0.063776)[&BS=68]:0.015659,(((fusc:0.030852,fusc_QCAZ5025_Moro_QCAZ:0.032396)[&BS=99]:0.01296,toli:0.034613)[&BS=100]:0.058732,(gruu:0.059765,pkem:0.080299)[&BS=90]:0.007404)[&BS=85]:0.006212)[&BS=65]:0.004658)[&BS=98]:0.020251)[&BS=100]:0.100389,(capi:0.140179,trdn:0.185899)[&BS=96]:0.021822)[&BS=87]:0.014,((((((((aple:0.082803,cryp:0.057021)[&BS=73]:0.020121,limi:0.097624)[&BS=52]:0.007293,bisc:0.06187)[&BS=51]:0.006004,zeus:0.084642)[&BS=100]:0.077999,((gaig:0.099227,(((gran:0.004278,gran_QCAZ4537_Esme_QCAZ:0.005558)[&BS=100]:0.047313,(((lync:0.025369,lync_QCAZ5038_Esme_QCAZ:0.028093)[&BS=100]:0.027375,macl:0.037539)[&BS=93]:0.006447,town:0.038005)[&BS=92]:0.003875)[&BS=100]:0.020965,(trac:0.036153,trac_QCAZ4983_Pasta_QCAZ:0.052024)[&BS=100]:0.053178)[&BS=96]:0.013068)[&BS=100]:0.025392,(lion:0.069062,oxyl:0.065079)[&BS=100]:0.010125)[&BS=100]:0.034216)[&BS=60]:0.013255,(((((bica:0.00276,roat:0.035554)[&BS=100]:0.028033,lemu:0.046032)[&BS=100]:0.064957,serra:0.109461)[&BS=93]:0.021293,(lyra:0.096312,vitt:0.070574)[&BS=100]:0.031747)[&BS=100]:0.038022,(doll:0.080536,(ocel:0.107497,yoro:0.127663)[&BS=99]:0.017571)[&BS=100]:0.057522)[&BS=56]:0.007413)[&BS=57]:0.009587,(carp:0.125498,rodr:0.087484)[&BS=94]:0.021326)[&BS=100]:0.065033,((humi:0.107088,quag:0.087225)[&BS=100]:0.059353,poly:0.167788)[&BS=98]:0.024245)[&BS=56]:0.009577)[&BS=92]:0.021282,(magn:0.102586,(pach:0.061682,trlp:0.047981)[&BS=100]:0.041059)[&BS=100]:0.09818)[&BS=90]:0.020099,((cusu:0.134971,lavv:0.195781)[&BS=95]:0.04973,((orto:0.040028,orto_QCAZ10525_Moro_QCAZ:0.045468)[&BS=100]:0.038008,sulc:0.102298)[&BS=100]:0.129357)[&BS=37]:0.005783)[&BS=39]:0.015895,((seri:0.098629,unil:0.092247)[&BS=94]:0.004975,wellb:0.074723)[&BS=100]:0.179048)[&BS=100]:0.05025,((((((((bino_DHMECN10868_Oro[&!color=#ff0000]:0.003909,bino_DHMECN11354_Oro[&!color=#ff0000]:6.69E-4)[&BS=100,!color=#ff0000]:0.003519,(bino_QCAZ14365_Azuay[&!color=#ff0000]:0.002512,bino_QCAZ5004_Azuay[&!color=#ff0000]:0.005523)[&BS=100,!color=#ff0000]:0.002483)[&BS=100,!color=#ff0000,!rotate=true]:0.038833,((bino_QCAZ17024_Chimborazo[&!color=#ff0000]:0.003359,binoQCAZ3438ChimborazoPoe[&!color=#ff0000]:0.003237)[&BS=99,!color=#ff0000]:0.003755,bino_QCAZ4139_Ca__ar[&!color=#ff0000]:0.014067)[&BS=100,!color=#ff0000]:0.020256)[&BS=100,!color=#ff0000,!rotate=true]:0.043759,((((bino_QCAZ11242_Sto_Domingo[&!color=#ff0000]:0.001794,bino_QCAZ17026_Rios[&!color=#ff0000]:0.002975)[&BS=100,!color=#ff0000]:5.78E-4,bino_QCAZ17025_Rios[&!color=#ff0000]:0.001198)[&BS=100,!color=#ff0000]:0.01439,(bino_QCAZ6784_Bolivar[&!color=#ff0000]:0.001785,bino_QCAZ6900_Rios[&!color=#ff0000]:0.001793)[&BS=100,!color=#ff0000]:0.007928)[&BS=99,!color=#ff0000]:0.006115,bino_QCAZ14152_Guayas[&!color=#ff0000]:0.0218)[&BS=100,!color=#ff0000]:0.044726)[&BS=100,!color=#ff0000,!rotate=true]:0.029134,((bino_KU218372_Manabi[&!color=#ff0000]:0.001938,bino_QCAZ11436_Manabi[&!color=#ff0000]:0.002868)[&BS=100,!color=#ff0000]:0.063594,bino_QCAZ8399_Esmeraldas[&!color=#ff0000]:0.097046)[&BS=98,!color=#ff0000]:0.014999)[&BS=100,!color=#ff0000,!rotate=true]:0.064084,(grac:5.8E-4,graci_QCAZ8071_Esme_QCAZ:5.98E-4)[&BS=100]:0.179135)[&BS=100]:0.20069,(datz:0.199506,salv:0.160881)[&BS=90]:0.05563)[&BS=72]:0.013104,noto:0.214721)[&BS=91]:0.081927)[&BS=42]:0.011918,(((ampl:0.195678,(crass:0.172627,smin:0.211756)[&BS=99]:0.029968)[&BS=99]:0.042874,(john:0.213635,sagr:0.29219)[&BS=90]:0.046653)[&BS=83]:0.034877,((((beck:0.024465,util:0.029623)[&BS=100]:0.04944,(char:0.110773,crsf:0.087542)[&BS=89]:0.023742)[&BS=87]:0.023378,pent:0.073773)[&BS=100]:0.172568,(((boul:0.142707,subo:0.213883)[&BS=100]:0.085876,((megp:0.11131,nebd:0.08622)[&BS=100]:0.055918,quer:0.167412)[&BS=100]:0.023757)[&BS=100]:0.064467,(((((dunn:0.042195,tayl:0.04813)[&BS=100]:0.221862,liog:0.180082)[&BS=98]:0.041597,((forb:0.050032,micl:0.039882)[&BS=100]:0.169465,nebs:0.214988)[&BS=99]:0.045269)[&BS=94]:0.02137,(gado:0.1885,(omil:0.085758,peuc:0.115659)[&BS=100]:0.119404)[&BS=97]:0.038374)[&BS=94]:0.011114,macn:0.173262)[&BS=100]:0.023614)[&BS=100]:0.038358)[&BS=80]:0.015851)[&BS=53]:0.008775)[&BS=27]:0.003425,((((anne:0.086392,onca:0.129442)[&BS=100]:0.172932,(((((bomb:0.001379,bomb_QCAZ4851_Pasta_QCAZ:0.002074)[&BS=100]:0.081183,(scyp:0.01269,scyp_QCAZ5104_Pasta_QCAZ:0.01626)[&BS=100]:0.089883)[&BS=100]:0.043955,(bras:0.124763,plan:0.055785)[&BS=100]:0.03733)[&BS=100]:0.088953,meri:0.229981)[&BS=91]:0.013961,(chrl:0.099383,tand:0.050269)[&BS=100]:0.174121)[&BS=99]:0.032586)[&BS=46]:0.010272,(aura:0.236575,lint:0.182631)[&BS=47]:0.020791)[&BS=100]:0.070489,((love:0.132479,purp:0.130619)[&BS=100]:0.070383,pete:0.213393)[&BS=91]:0.01578)[&BS=58]:0.011178)[&BS=54]:0.016576,((((((alva:0.171175,(comp:0.158357,unif:0.219731)[&BS=85]:0.012437)[&BS=85]:0.020195,(cpri:0.071545,matu:0.057323)[&BS=100]:0.082883)[&BS=83]:0.014457,coba:0.12364)[&BS=36]:0.005546,((camp:0.172529,hoba:0.15518)[&BS=48]:0.021618,(nauf:0.057548,schi:0.034203)[&BS=100]:0.119428)[&BS=19]:2.0E-6)[&BS=60]:0.015064,((bark:0.190314,(cymb:0.075235,(mill:0.078407,pavc:0.082598)[&BS=100]:0.017246)[&BS=100]:0.097024)[&BS=100]:0.040968,(duel:0.084232,pygm:0.101343)[&BS=100]:0.132753)[&BS=99]:0.039447)[&BS=56]:0.006626,rubi:0.164263)[&BS=100]:0.050227)[&BS=72]:0.021444,(((aqua:0.094991,wood:0.126104)[&BS=100]:0.100313,mars:0.222037)[&BS=98]:0.026052,(bipo:0.161471,((parv_QCAZ4532_Esme_QCAZ:1.0E-6,parv_QCAZ5047_Esme_QCAZ:1.0E-6)[&BS=100]:0.002918,pavt:0.006356)[&BS=100]:0.139957)[&BS=100]:0.072902)[&BS=97]:0.044731)[&BS=100]:0.153095,(Pmar_QCAZ10223:0.505539,(Psca_PT4810:0.208412,Ugal_FBC36:0.283441)[&BS=100]:0.184601)[&BS=100]:0.070271)[&BS=100]:0.098183,((((((fras_QCAZ14393:0.006387,fras_QCAZ8025:0.001291)[&BS=98]:2.0E-6,fras_QCAZ6862:1.0E-6)[&BS=100]:0.003406,fras_QCAZ6867:0.005092)[&BS=96]:0.001399,fras_QCAZ3441:0.003776)[&BS=100]:0.010355,pari_QCAZ15058:0.021548)[&BS=100]:0.007633,(pari_QCAZ10178:0.003048,pari_QCAZ15386:0.003463)[&BS=100]:0.004311)[&BS=100]:0.23831)[&BS=100]:0.156251);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="BS";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=14;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=691;
+	set legend.attribute="BS";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=true;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=10000;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=15;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
