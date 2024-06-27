@@ -12,12 +12,11 @@ Fecha: "2024-06-13"
 
 ## **Programas para instalar**
 ### 1) Gitbash
-### 2) Iqtree
-### 3) Figtree
-### 4) RStudio:
-###           -Paquetes:
-
-
+### 2) Wget
+### 3) Iqtree2
+### 4) Astral
+### 5) Figtree
+### 6) RStudio:
 
 ## **Data**
 
@@ -30,18 +29,16 @@ Fecha: "2024-06-13"
 
 ## **Scripts**
 
-### 1) Se generará un pipeline en gitbash para generar un árbol en iqtree para cada gen.
-### 2) Se generará una visualización de los árboles en FigTree.
-### 3) Se generará un pipeline en gitbash para obtener las discordancias.
+### 1) Se generará un script en gitbash para generar un árbol de concordancia para los tres genes.
+### 2) Se generará una visualización del árbol en FigTree para ver el porcentaje de discordancias entre genes mitocondriales y nucleares.
 ### 3) Se generará un script para verificar distribución normal en todas la variables.
 ### 4) Se generará un script para PCA con variables que presenten distribución normal, con escalada y varimax. Variable dependiente Clados.
 
 ## **Results**
 
-### 1) Árboles filogenéticos para genes mitocondriales y nuclear. 
-### 2) Comparación de discordancia entre todos los genes.
-### 3) Obtención de variables con distribución normal.
-### 4) Gráfica PCA de clados.   
+### 1) Árbole filogenético con factor de concordancia para genes mitocondriales y nuclear. 
+### 2) Obtención de variables con distribución normal.
+### 3) Gráfica PCA de clados.   
 
 ## **Enlace:** [Ficha de ***Anolis binotatus*** en Bioweb Reptiles](https://bioweb.bio/faunaweb/reptiliaweb/FichaEspecie/Anolis%20binotatus)
 
